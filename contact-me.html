@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML Contact Me | Mohammed Qashqesh</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mohammed Qashqesh</h1>
+      <nav>
+        <ul>
+          <li><a href="./portfolio.html">About</a></li>
+          <li><a href="./portfolio.html">Projects</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <!-- Contact form section for users to send messages -->
+    <section id="contact-me">
+      <h2>Contact Me</h2>
+      <form action="#">
+        <!-- input for user name -->
+        <div>
+          <label for="name">Name: </label>
+          <input id="name" type="text" placeholder="Enter Your Name" />
+        </div>
+        <!-- New Line -->
+        <br />
+        <!-- input for user Email -->
+        <div>
+          <label for="email">Email: </label>
+          <input
+            id="email"
+            type="email"
+            name="mail"
+            placeholder="Enter Your Email"
+          />
+        </div>
+
+        <br />
+        <!-- input for user Message -->
+        <div>
+          <label for="message">Message: </label>
+          <textarea
+            id="message"
+            name="textArea"
+            placeholder="Enter Your Message"
+            cols="40"
+            rows="10"
+          ></textarea>
+        </div>
+
+        <br />
+        <!-- Submit button -->
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+  </body>
+</html>
